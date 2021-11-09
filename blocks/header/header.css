@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 944px;
+  width: calc(100% - 2 * 168px);
+  margin: 41px auto;
+  /* padding-top: 41px; */
+ /*  background-color: rgba(27, 41, 68, 1); */
+}
+
+@media screen and (max-width: 320px){
+  .header {
+    max-width: 267px;
+    max-height: 28px;
+    margin: 35px 25px 0 28px;
+    gap: 64px;
+  }
+}
