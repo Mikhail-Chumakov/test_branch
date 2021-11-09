@@ -1,0 +1,14 @@
+.hero__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 444px;
+  /* justify-content: space-between; */
+  /* text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0  #000; */
+}
+
+@media screen and (max-width: 320px){
+  .hero__info {
+    width: 100%;
+    align-items: center;
+  }
+}
