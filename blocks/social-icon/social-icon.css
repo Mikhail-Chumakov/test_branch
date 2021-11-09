@@ -1,9 +1,0 @@
-.social-icon {
-  align-self: center;
-}
-
-@media screen and (max-width: 320px){
-  .social-icon {
-    max-width: 16px;
-  }
-}
