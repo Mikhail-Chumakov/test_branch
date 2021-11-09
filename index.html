@@ -11,92 +11,84 @@
     <title>Фрилансер</title>
   </head>
   <body class="page">
-    <header class="header">
-      <a href="#"><img class="header__logo" src="./images/header_logo.svg" alt="лого"></a>
-      <div class="header__socials-links">
-        <a href="#" class="link"><img src="./images/github.svg" alt="гитхаб" class="social-icon"></a>
-        <a href="#" class="link"><img src="./images/twitter.svg" alt="твитер" class="social-icon"></a>
-        <a href="#" class="link"><img src="./images/instagram.svg" alt="инстаграм" class="social-icon"></a>
-        <a href="#" class="link"><img src="./images/facebook.svg" alt="фэйсбук" class="social-icon"></a>
-      </div>
-    </header>
-    <main class="content">
-      <section class="hero">
-        <div class="hero__info"> <!-- возможно тут нужно дать класс info --> 
-          <h1 class="hero__info_title">Фрилансер</h1>
-          <h2 class="hero__info_subtitle">Петр Федоров</h2>
-          <p class="hero__info_text">Разрабатываю сайты для малого и среднего бизнеса. У меня можно заказать дизайн и верстку небольшого сайта или интернет-магазина</p>
-          <form>
-            <button class="button">Бесплатная консультация</button>
-          </form>
+
+      <section class="gallery">
+        <div class="gallery__photo-grid">
+          <img src="./images/gallery01.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <img src="./images/gallery02.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <img src="./images/gallery03.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <img src="./images/gallery04.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <img src="./images/gallery05.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <a href="#" class="gallery__item gallery__item_notebook">
+            <div class="gallery__gradient">
+              <p class="gallery__video-text">0:28</p>
+              <img src="./images/play_circle_filled.svg" alt="play" class="gallery__video-icon">
+            </div>
+          </a>
+          <img src="./images/gallery07.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <img src="./images/gallery08.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <img src="./images/gallery09.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <img src="./images/gallery10.jpg" alt="не удалось загрузить изображение" class="gallery__item">
+          <a href="#" class="gallery__item gallery__item_bridge">
+            <div class="gallery__gradient">
+              <p class="gallery__video-text">0:28</p>
+              <img src="./images/play_circle_filled.svg" alt="play" class="gallery__video-icon">
+            </div>
+          </a>
+          <img src="./images/gallery12.jpg" alt="не удалось загрузить изображение" class="gallery__item">
         </div>
-        <div class="hero__round"><img class="hero__foto" src="./images/Keanu.png" alt="фото Петра Ф."></div>
       </section>
-
-      <section class="features">
-        <div class="features__container">
-        <h2 class="content__title">Со мной удобно работать</h2>
-        <ul class="features__list">
-          <li class="features__card">
-            <img src="./images/offer-img.svg" alt="не удалось загрузить изображение" class="features__logo">
-            <h3 class="features__card-title">По договору</h3>
-            <p class="features__card-text">Предоставлю все документы для бухгалтерии: договоры, счета и акты. Работаю как ИП без НДС.</p>
-          </li>
-          <li class="features__card">
-            <img src="./images/deadline-img.svg" alt="не удалось загрузить изображение" class="features__logo">
-            <h3 class="features__card-title">Точно в срок</h3>
-            <p class="features__card-text">В договоре прописана моя  ответственность за срок проекта. Если просрочу — плачу неустойку. </p>
-          </li>
-          <li class="features__card">
-            <img src="./images/agreement-img.svg" alt="не удалось загрузить изображение" class="features__logo">
-            <h3 class="features__card-title">Ценник под вас</h3>
-            <p class="features__card-text">Если у вас нетиповой проект, сделаю рассчет цены за работу и объясню, как складывается цена.</p>
-          </li>
-          <li class="features__card">
-            <img src="./images/steps-img.svg" alt="не удалось загрузить изображение" class="features__logo">
-            <h3 class="features__card-title">Премежуточные итоги</h3>
-            <p class="features__card-text">Показываю работу поэтапно, а не в последий момент перед крайним сроком. </p>
-          </li>
-          <li class="features__card">
-            <img src="./images/storage-img.svg" alt="не удалось загрузить изображение" class="features__logo">
-            <h3 class="features__card-title">Хостинг и домен </h3>
-            <p class="features__card-text">Если мы договорились о цене проекта, в неё входит всё: домен и хостинг на год + SSL сертификат.</p>
-          </li>
-          <li class="features__card">
-            <img src="./images/conversation-img.svg" alt="не удалось загрузить изображение" class="features__logo">
-            <h3 class="features__card-title">Не брошу после сдачи</h3>
-            <p class="features__card-text">Научу вас или вашего сотрудника пользоваться сайтом, запишу видео-инструкции.</p>
-          </li>
-        </ul>
-      </div>
-      </section>
-
-      <section class="portfolio">
-        <h2 class="content__title">Выполненные проекты</h2>
-        <div class="portfolio__cards">
-          <div class="portfolio__card portfolio__card_charamel">
-            <div class="portfolio__card-gradient">
-              <p class="portfolio__card-title">The curious corner of chamarel</p>
-              <button class="portfolio__card-button">
-                <a href="#" class="portfolio__link">Посмотреть</a>
-              </button>
+    </main>
+    <div class="footer">
+      <h2 class="content__title">Свяжитесь со мной</h2>
+      <div class="footer__content">
+        <form class="form">
+          <p class="comment">Можете просто оставить заявку, я позвоню вам сегодня</p>
+          <fieldset class="form__name_info">
+            <svg width="16" height="18" viewBox="0 0 16 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M7.93183 9.69894C7.9513 9.69894 7.97078 9.69894 7.99415 9.69894C8.00194 9.69894 8.00973 9.69894 8.01752 9.69894C8.02921 9.69894 8.04479 9.69894 8.05648 9.69894C9.19779 9.6803 10.121 9.29637 10.8026 8.56205C12.3023 6.94432 12.053 4.17106 12.0258 3.90641C11.9284 1.91966 10.9468 0.969148 10.1365 0.525577C9.53278 0.19383 8.82774 0.01491 8.04089 0H8.01363C8.00973 0 8.00194 0 7.99805 0H7.97468C7.5423 0 6.69313 0.0670949 5.87902 0.510667C5.06102 0.954238 4.06383 1.90475 3.96645 3.90641C3.93918 4.17106 3.68988 6.94432 5.18956 8.56205C5.86734 9.29637 6.79051 9.6803 7.93183 9.69894ZM5.00648 3.9996C5.00648 3.98842 5.01038 3.97724 5.01038 3.96978C5.13892 1.29717 7.12161 1.01015 7.97078 1.01015H7.98636C7.99415 1.01015 8.00584 1.01015 8.01752 1.01015C9.06924 1.03252 10.8572 1.44254 10.9779 3.96978C10.9779 3.98096 10.9779 3.99215 10.9818 3.9996C10.9857 4.02569 11.2584 6.56039 10.0197 7.89483C9.52889 8.42413 8.87448 8.68506 8.01363 8.69251C8.00584 8.69251 8.00194 8.69251 7.99415 8.69251C7.98636 8.69251 7.98247 8.69251 7.97468 8.69251C7.11772 8.68506 6.45942 8.42413 5.97251 7.89483C4.73771 6.56784 5.00259 4.02197 5.00648 3.9996Z" fill="#949494"/>
+              <path d="M15.9989 14.2987C15.9989 14.295 15.9989 14.2912 15.9989 14.2875C15.9989 14.2577 15.995 14.2279 15.995 14.1943C15.9716 13.4563 15.921 11.7304 14.2305 11.1788C14.2188 11.175 14.2032 11.1713 14.1915 11.1676C12.4347 10.7389 10.974 9.76978 10.9584 9.7586C10.7208 9.59832 10.3936 9.65423 10.2261 9.88161C10.0586 10.109 10.1171 10.4221 10.3547 10.5824C10.4209 10.6271 11.9712 11.6596 13.911 12.1367C14.8186 12.4461 14.9199 13.3743 14.9472 14.2241C14.9472 14.2577 14.9472 14.2875 14.9511 14.3173C14.955 14.6528 14.9316 15.1709 14.8693 15.4691C14.2382 15.812 11.7648 16.9974 8.00193 16.9974C4.25469 16.9974 1.76561 15.8083 1.13069 15.4654C1.06836 15.1672 1.0411 14.6491 1.04889 14.3136C1.04889 14.2838 1.05278 14.254 1.05278 14.2204C1.08005 13.3705 1.18133 12.4424 2.08892 12.133C4.02876 11.6559 5.57908 10.6197 5.6453 10.5786C5.88291 10.4184 5.94134 10.1053 5.77384 9.87788C5.60635 9.6505 5.27914 9.59459 5.04153 9.75487C5.02595 9.76606 3.57302 10.7352 1.80846 11.1639C1.79288 11.1676 1.7812 11.1713 1.76951 11.175C0.0789655 11.7304 0.0283271 13.4563 0.00495551 14.1906C0.00495551 14.2241 0.00495542 14.254 0.00106015 14.2838C0.00106015 14.2875 0.00106015 14.2912 0.00106015 14.295C-0.00283511 14.4888 -0.00673029 15.484 0.199719 15.9835C0.238671 16.0804 0.308786 16.1624 0.402272 16.2183C0.51913 16.2929 3.31983 18.0001 8.00583 18.0001C12.6918 18.0001 15.4925 16.2892 15.6094 16.2183C15.699 16.1624 15.773 16.0804 15.8119 15.9835C16.0067 15.4878 16.0028 14.4925 15.9989 14.2987Z" fill="#949494"/>
+              </svg>            
+            <input type="text" name="firstname" placeholder="Ваше имя">
+          </fieldset>
+          <fieldset class="form__tel_info">
+            <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M11.8611 9.29199C11.5535 8.97223 11.1826 8.80128 10.7894 8.80128C10.3995 8.80128 10.0254 8.96907 9.70514 9.28882L8.70328 10.2861C8.62085 10.2417 8.53841 10.2006 8.45915 10.1594C8.34502 10.1024 8.23722 10.0486 8.14528 9.99164C7.20682 9.39646 6.35397 8.62083 5.53599 7.61725C5.13968 7.11705 4.87336 6.69599 4.67996 6.2686C4.93994 6.03117 5.1809 5.78423 5.41551 5.54679C5.50428 5.45815 5.59306 5.36634 5.68183 5.2777C6.34763 4.61287 6.34763 3.75176 5.68183 3.08693L4.81629 2.22266C4.71801 2.12452 4.61655 2.02321 4.52144 1.9219C4.33121 1.72562 4.13147 1.52301 3.92539 1.33305C3.61786 1.02913 3.25009 0.867676 2.86329 0.867676C2.47649 0.867676 2.10238 1.02913 1.78533 1.33305C1.78216 1.33622 1.78216 1.33622 1.77899 1.33939L0.701036 2.42527C0.295217 2.8305 0.0637733 3.32437 0.013046 3.89739C-0.0630451 4.82181 0.209615 5.68292 0.418865 6.24644C0.93248 7.62992 1.69973 8.91208 2.84427 10.2861C4.23293 11.9418 5.90376 13.2493 7.81238 14.1705C8.54158 14.5156 9.51492 14.924 10.6024 14.9937C10.669 14.9968 10.7387 15 10.8021 15C11.5345 15 12.1496 14.7372 12.6315 14.2149C12.6346 14.2085 12.641 14.2054 12.6442 14.199C12.809 13.9996 12.9993 13.8191 13.199 13.626C13.3353 13.4962 13.4748 13.3601 13.6112 13.2176C13.925 12.8915 14.0899 12.5116 14.0899 12.1222C14.0899 11.7297 13.9219 11.3529 13.6016 11.0364L11.8611 9.29199ZM12.9961 12.6256C12.9929 12.6256 12.9929 12.6288 12.9961 12.6256C12.8724 12.7586 12.7456 12.8789 12.6093 13.0119C12.4032 13.2081 12.194 13.4139 11.9974 13.645C11.6772 13.9869 11.2999 14.1484 10.8053 14.1484C10.7577 14.1484 10.707 14.1484 10.6595 14.1452C9.71783 14.0851 8.84278 13.7178 8.18649 13.4044C6.39201 12.537 4.81629 11.3055 3.50689 9.7447C2.42577 8.44354 1.7029 7.24052 1.22416 5.94885C0.929309 5.16056 0.821513 4.54639 0.86907 3.96704C0.900775 3.59663 1.04345 3.28955 1.30659 3.02678L2.38772 1.94723C2.54307 1.8016 2.70794 1.72245 2.86963 1.72245C3.06937 1.72245 3.23106 1.84276 3.33252 1.94406C3.33569 1.94723 3.33886 1.95039 3.34203 1.95356C3.53543 2.13401 3.71931 2.3208 3.91271 2.52025C4.011 2.62155 4.11245 2.72286 4.21391 2.82733L5.07944 3.69161C5.41551 4.02719 5.41551 4.33744 5.07944 4.67302C4.9875 4.76483 4.89873 4.85664 4.80678 4.94528C4.54046 5.21754 4.28683 5.47081 4.011 5.71775C4.00466 5.72408 3.99831 5.72725 3.99514 5.73358C3.72248 6.00584 3.77321 6.27177 3.83028 6.45222C3.83345 6.46172 3.83662 6.47122 3.83979 6.48072C4.06489 7.02524 4.38194 7.53811 4.86385 8.14912L4.86702 8.15228C5.74207 9.22867 6.66467 10.0676 7.68239 10.7103C7.81238 10.7926 7.94554 10.8591 8.07236 10.9224C8.18649 10.9794 8.29429 11.0332 8.38623 11.0902C8.39891 11.0965 8.4116 11.106 8.42428 11.1123C8.53207 11.1662 8.63353 11.1915 8.73815 11.1915C9.0013 11.1915 9.16617 11.0269 9.22006 10.973L10.3044 9.89033C10.4122 9.78269 10.5834 9.65289 10.7831 9.65289C10.9797 9.65289 11.1414 9.77636 11.2396 9.884C11.2428 9.88716 11.2428 9.88716 11.246 9.89033L12.9929 11.6347C13.3195 11.9576 13.3195 12.29 12.9961 12.6256Z" fill="#949494"/>
+              <path d="M8.10725 3.56805C8.93792 3.70735 9.69249 4.09991 10.2949 4.70142C10.8973 5.30293 11.2872 6.0564 11.4299 6.88585C11.4648 7.0948 11.6455 7.24043 11.8516 7.24043C11.8769 7.24043 11.8991 7.23726 11.9245 7.2341C12.1591 7.19611 12.3145 6.9745 12.2764 6.74023C12.1052 5.73665 11.6296 4.82173 10.9036 4.09675C10.1776 3.37177 9.26131 2.89689 8.25627 2.72594C8.02165 2.68795 7.80289 2.84307 7.76167 3.07418C7.72046 3.30529 7.87264 3.53006 8.10725 3.56805Z" fill="#949494"/>
+              <path d="M14.9935 6.6168C14.7113 4.96423 13.9314 3.46045 12.7329 2.26376C11.5345 1.06707 10.0285 0.288276 8.37355 0.00651577C8.14211 -0.0346402 7.92335 0.123652 7.88213 0.354759C7.84409 0.589031 7.99944 0.807474 8.23405 0.84863C9.71149 1.09873 11.0589 1.79838 12.1305 2.86527C13.2022 3.93533 13.8997 5.28081 14.1501 6.75609C14.185 6.96504 14.3657 7.11067 14.5718 7.11067C14.5972 7.11067 14.6194 7.1075 14.6447 7.10434C14.8762 7.06951 15.0347 6.8479 14.9935 6.6168Z" fill="#949494"/>
+              </svg>            
+            <input type="tel" name="tel" placeholder="Ваш телефон">
+          </fieldset>
+        </form> 
+        <div class="footer__contacts">
+          <div class="footer__data">
+            <div class="footer__phone">
+              <h3 class="footer__contacts-title">Телефон</h3>
+              <!-- <div class="phone__number"><a href="tel:+79991234567">+7 999 123 45 67</a></div> -->
+              <a class="footer__phone-number" href="tel:+79991234567">+7 999 123 45 67</a>
+            </div>
+            <div class="footer__email">
+              <h3 class="footer__contacts-title">Почта</h3>
+              <!-- <div class="email__adress"><a href= "mailto:ivanov@mail.ru">ivanov@mail.ru</a></div> -->
+              <a class="footer__email-adress" href= "mailto:ivanov@mail.ru">ivanov@mail.ru</a>
             </div>
           </div>
-          <div class="portfolio__card portfolio__card_golf">
-            <div class="portfolio__card-gradient">
-              <p class="portfolio__card-title">Gymkhana club golf course</p>
-              <button class="portfolio__card-button">
-                <a href="#" class="portfolio__link">Посмотреть</a>
-              </button>
-          </div>
-          </div>
-          <div class="portfolio__card portfolio__card_trip">
-            <div class="portfolio__card-gradient">
-              <p class="portfolio__card-title">Tamarind falls hiking trip - full day</p>
-              <button class="portfolio__card-button">
-                <a href="#" class="portfolio__link">Посмотреть</a>
-              </button>
-          </div>
+          <div class="footer__networks">
+            <h3 class="footer__contacts-title">Соцсети</h3>
+            <div class="networks__links">
+              <a class="networks__link" href="t.me/ivanov">t.me/ivanov</a>
+              <a class="networks__link" href="vk.me/ivanov">vk.me/ivanov</a>           
+              <a class="networks__link" href="fb.me/ivanov">fb.me/ivanov</a>
+            </div>
+            <div class="social-links">
+              <a href="#" class="link"><img src="./images/github.svg" alt="гитхаб" class="social-icon"></a>
+              <a href="#" class="link"><img src="./images/twitter.svg" alt="твитер" class="social-icon"></a>
+              <a href="#" class="link"><img src="./images/instagram.svg" alt="инстаграм" class="social-icon"></a>
+              <a href="#" class="link"><img src="./images/facebook.svg" alt="фэйсбук" class="social-icon"></a>
+            </div>
+            <a class="footer__privacy" href="#">Политика конфиденциальности</a>
           </div>
         </div>
-      </section>
+      </div>
+    </footer>
+  </body>
