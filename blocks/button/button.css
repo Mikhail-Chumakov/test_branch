@@ -1,0 +1,20 @@
+.button {
+  width: 300px;
+  height: 66px;
+  background: #FFBB01;
+  box-shadow: 0px 4px 0px #B68500;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 130%;
+  color: #1B2944;
+}
+
+@media screen and (max-width: 320px){
+  .button {
+    width: 267px;
+    height: 44px;
+    font-size: 10px;
+  }
+}
