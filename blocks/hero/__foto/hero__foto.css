@@ -1,0 +1,18 @@
+.hero__foto {
+  object-fit: scale-down;
+  /* max-width: 362px; */
+/*   border: 5px solid rgb(255, 255, 255);
+  border-radius: 100%; */
+  /* overflow: hidden; */
+ /*  background: mistyrose; */
+/*   border-radius: 100px;
+  border: 5px solid #ffffff;
+  background: #FFFFFF;
+  box-sizing: border-box; */
+}
+
+/* @media screen and (max-width: 320px){
+  .hero__foto {
+    
+  }
+} */

@@ -1,0 +1,27 @@
+.hero {
+  max-width: 944px;
+  width: calc(100% - 2 * 168px);
+  margin: 113px auto 71px;
+  /* padding-bottom: 71px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  /* align-items: center; */
+  /* background-color: rgba(27, 41, 68, 1); */ ​​​​​
+}
+
+@media screen and (max-width: 320px) { /* 687px */
+  .hero {
+    max-width: 267px;
+    width: 100%;
+    margin: 46px 25px 42px 25px;
+    flex-wrap: wrap-reverse;
+    /* align-content: flex-end; */
+    /* flex-direction: column; */
+    justify-content: center;
+    margin-top: 46px;
+    /* align-items: center; */
+    /* margin-top: 46px auto 0; */
+  }
+}
